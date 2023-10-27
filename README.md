@@ -24,6 +24,6 @@ We cultivate:
 
 We'd like to express our gratitude to the open-source community, the US Air Force Academy, and all the amazing alumni who believed in this project. We are so blessed to be _from_ the Zoo. Remember to be a good person and spread the word!
 
-**📫 My Contact Info**
+### 📬 Contact Information
 
 Reach me at https://www.linkedin.com/in/ryan-harden/ with any questions!
