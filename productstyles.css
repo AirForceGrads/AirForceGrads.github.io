@@ -14,6 +14,14 @@
     /* Add spacing between columns */
 }
 
+
+@media (max-width: 768px) {
+    .ProductHeaderColumn {
+        margin-left: 0;
+        /* Remove left margin on mobile */
+    }
+}
+
 .ProductHeader h1 {
     font-size: 20 px;
     color: black;
