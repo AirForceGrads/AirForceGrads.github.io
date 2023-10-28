@@ -1,0 +1,73 @@
+.Layout__Main-sc-1309bly-0 {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.Grid__Container-tyxe4p-1 {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Grid__Row-tyxe4p-5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Grid__ColContainer-tyxe4p-7 {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+}
+
+.Hero__TextWrapper-sc-19bbmt-0 {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.Typography__P-sc-1l5y7hc-0 {
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+}
+
+.Image__Img-sc-88ly7t-0 {
+    max-width: 100%;
+    height: auto;
+}
+
+.Card-sc-1r7hy7i-0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: transform 0.2s;
+}
+
+.Card-sc-1r7hy7i-0:hover {
+    transform: scale(1.05);
+}
+
+.products__Logo-sc-1rouhva-0 {
+    max-width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.products__Logo-sc-1rouhva-0.lhcgXS {
+    max-width: 120px;
+}
+
+.products__Logo-sc-1rouhva-0.hkZjKG {
+    max-width: 60px;
+}
+
+.products__Logo-sc-1rouhva-0.jGHlLq {
+    max-width: 100px;
+}
