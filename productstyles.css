@@ -1,0 +1,311 @@
+.ProductHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffffe3;
+    padding: 20px;
+    text-align: left;
+    align-items: flex-start;
+    /* Align the content to the top */
+}
+
+.ProductHeaderColumn {
+    flex: 1;
+    margin-left: 80px;
+    /* Add spacing between columns */
+}
+
+.ProductHeader h1 {
+    font-size: 20 px;
+    color: black;
+}
+
+.ProductHeader h2 {
+    font-size: 18 px;
+    color: dodgerblue;
+}
+
+.ProductHeader p {
+    font-size: 16 px;
+    color: black;
+}
+
+
+/* Header Styles */
+
+header {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+/* Logo Styles */
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+
+/* Navbar Styles */
+
+.navbar {
+    background-color: rgb(186, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    /* Change justify-content to push items to the right */
+    align-items: center;
+}
+
+
+/* Nav List Styles */
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+/* Nav Item Styles */
+
+.nav-item {
+    margin: 0;
+    padding: 0 15px;
+    /* Adjust the padding for spacing */
+}
+
+
+/* Update font color for Nav Item Links */
+
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+    /* Change color to black (#000) */
+}
+
+
+/* Main Content Styles */
+
+main {
+    padding: 20px;
+}
+
+
+/* Footer Styles */
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+/* Custom Styles */
+
+.bTONTJ {
+    padding: 0.8rem;
+    margin-bottom: 1.35rem;
+    border-radius: 9px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.125) 0px 1px 6px;
+}
+
+
+/* Container Styles */
+
+.Hero__TextContainer-sc-1n1o2pu-2 {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+
+/* Heading Styles */
+
+.Hero__StyledH1-sc-1n1o2pu-3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+/* Paragraph Styles */
+
+.Hero__StyledP-sc-1n1o2pu-4 {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+/* Button Styles */
+
+.Btn__BtnBtn-sc-1cjl766-0 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+
+/* GitHub Link Styles */
+
+.Hero__ColWrapper-tyxe4p-6 a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+/* GitHub Icon Styles */
+
+.prefix__feather.prefix__feather-external-link {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+
+/* Navigation Styles */
+
+.nav {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Container Styles */
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Logo Styles */
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Menu Styles */
+
+.menu {
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+
+/* Bars Styles */
+
+.bars {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+/* Bar Styles */
+
+.bar {
+    background-color: #fff;
+    height: 3px;
+    width: 20px;
+    margin: 4px 0;
+    border-radius: 2px;
+}
+
+
+/* Links Styles */
+
+.links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Link Styles */
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Media Query for Responsive Design */
+
+@media (max-width: 768px) {
+    .bars {
+        display: flex;
+    }
+    .links {
+        display: none;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    /* Display menu items horizontally */
+    align-items: center;
+    /* Vertically center the items */
+}
+
+.menu li {
+    padding: 0 20px;
+    /* Add spacing between menu items */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    /* Adjust the font size */
+}
+
+.Grid__ColContainer-tyxe4p-7 {
+    max-width: 800px;
+    /* Set the maximum width as desired */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next row */
+    justify-content: space-between;
+    /* Add space between the columns */
+}
+
+.Grid__Col-tyxe4p-8 {
+    flex: 1;
+    /* Distribute available space evenly */
+    margin: 5px;
+    /* Add spacing between elements */
+}
