@@ -113,6 +113,13 @@ footer {
     text-align: center;
 }
 
+.Clickable-Card {
+    display: block;
+    text-decoration: none;
+    /* Remove the default underline for anchor tags */
+    /* Add any other styling you want for the clickable box here */
+}
+
 
 /* Custom Styles */
 
@@ -317,4 +324,11 @@ body {
     /* Distribute available space evenly */
     margin: 5px;
     /* Add spacing between elements */
+}
+
+.Card-sc-1r7hy7-0 img {
+    width: 50px;
+    /* Adjust the width as needed */
+    height: 50px;
+    /* Adjust the height as needed */
 }
