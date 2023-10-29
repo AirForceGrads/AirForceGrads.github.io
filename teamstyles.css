@@ -297,6 +297,7 @@ body {
 
 .menu li {
     padding: 0 20px;
+    display: block;
     /* Add spacing between menu items */
 }
 
