@@ -125,14 +125,6 @@ footer {
     box-shadow: rgba(0, 0, 0, 0.125) 0px 1px 6px;
     height: 120px;
     width: 360px;
-    &:hover {
-        background-color: #007bff;
-        /* New background color on hover */
-        border: 1px transparent #0056b3;
-        /* New border color on hover */
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 10px;
-        /* New box shadow on hover */
-    }
 }
 
 
