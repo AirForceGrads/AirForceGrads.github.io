@@ -14,10 +14,6 @@ body {
 /* Apply different styles for screens with a maximum width of 768px (typical for mobile) */
 
 @media screen and (max-width: 768px) {
-    .center-wrap {
-        font-size: 1.2rem;
-        /* Increase font size for mobile */
-    }
     .calculator label,
     .calculator input,
     .calculator button,
