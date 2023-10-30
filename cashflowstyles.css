@@ -7,6 +7,22 @@ body {
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+
+/* Apply different styles for screens with a maximum width of 768px (typical for mobile) */
+
+@media screen and (max-width: 768px) {
+    .center-wrap {
+        font-size: 2rem;
+        /* Increase font size for mobile */
+    }
+    /* You can adjust other styles as needed for mobile devices */
+    .calculator {
+        font-size: 1.2rem;
+        /* Adjust the font size for the calculator on mobile */
+    }
 }
 
 h1 {
