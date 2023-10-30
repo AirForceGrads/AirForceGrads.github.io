@@ -7,7 +7,7 @@ body {
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 
@@ -18,8 +18,10 @@ body {
         font-size: 2rem;
         /* Increase font size for mobile */
     }
-    /* You can adjust other styles as needed for mobile devices */
-    .calculator {
+    .calculator label,
+    .calculator input,
+    .calculator button,
+    .calculator p {
         font-size: 1.2rem;
         /* Adjust the font size for the calculator on mobile */
     }
