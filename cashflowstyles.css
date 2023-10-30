@@ -3,8 +3,14 @@ body {
     text-align: center;
 }
 
+.center-wrap {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 h1 {
-    color: #333;
+    color: rgb(0, 0, 0);
 }
 
 .calculator {
