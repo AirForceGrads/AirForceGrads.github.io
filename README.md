@@ -15,7 +15,7 @@
 - ### 📬 Contact Information
 
 ## 📋 Features
-🏡 We believe that everyone has a purpose. Some say this must be discovered, while others say it is innate——either way, we want to help facilitate better outcomes for the community that we care so much about. Therefore, we are committing ourselves to develop what others have not and will not. We're not in it for money. We're here to build actually useful features for people who need and want assistance with tough, real-life decisions.
+🏡 We believe that everyone has a purpose. Some say this must be discovered, while others say it is innate——either way, we want to help facilitate better outcomes for the community that we care so much about. 
 
 We promise to create...
   
@@ -24,6 +24,8 @@ We promise to create...
   📂 2. Resource Library: An extensive library of resources, from job postings to alumni success stories.
 
   🤝 3. Connect and Network: Build valuable connections with other graduates and employers.
+
+Therefore, we are committing ourselves to develop what others have not and will not. We're not in it for money. We're here to build actually useful features for people who need and want assistance with tough, real-life decisions.
 
 ## 🙏 Acknowledgements
 
