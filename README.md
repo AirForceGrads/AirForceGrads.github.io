@@ -1,6 +1,6 @@
 # Welcome, Air Force Grads ✈️
 
-##  Long Blue Line
+## ✨ Introduction
 👋 Hi, my name is Ryan.
 
 🖥️ Welcome to the ultimate platform for Air Force Academy alumni. We are a website built for grads who are looking to upskill or transition from the military to the private sector. Together, through feedback and a timely, iterative development process, we'll help people from re-creating the same decision wheel that so many of us do each year. 
@@ -15,7 +15,7 @@
 - ### 🙏 Acknowledgements
 - ### 📬 Contact Information
 
-## ✨ Introduction
+
 
 ## 📋 Features
 
