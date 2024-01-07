@@ -1,15 +1,19 @@
-# Welcome Air Force Grads ✈️
+# Welcome, Air Force Grads ✈️
 
 ##  Long Blue Line
-Welcome to the ultimate platform for Air Force Academy alumni. We're a website built by grads, for grads. It's as simple as that. We're here to build useful applications (web or mobile) that connect people and make lives easier. 
+Hi!! 👋
+
+Welcome to the ultimate platform for Air Force Academy alumni. My name is Ryan, and I'm building this website to help military academy graduates find a meaningful and happy life in the private sector. Whether you serve for 40 years, 20 years, or 5-and-dive (like me), we owe it to ourselves and our community to be a positive influence in the lives of others. All this said, we're a website built for grads. It's as simple as that. We believe in building useful applications, primarily on the web, to connect people and streamline their decision processes.
 
 ##  Table of Contents
-- ### ✨ Features
+- ### ✨ Introduction
+- ### 📋 Features
 - ### 🙏 Acknowledgements
 - ### 📬 Contact Information
 
+## ✨ Introduction
 
-## ✨ Features
+## 📋 Features
 
 We cultivate: 
 
