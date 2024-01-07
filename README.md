@@ -5,9 +5,9 @@
 
 🖥️ Welcome to the ultimate platform for Air Force Academy alumni. We are a website built for grads who are looking to upskill or transition from the military to the private sector. Together, through feedback and a timely, iterative development process, we'll help people from re-creating the same decision wheel that so many of us do each year. 
 
-🟢 Instead of waiting for someone else to solve this problem, I decided to build this website and help other graduates. So, if you are interested in what life could be like in the private sector, whether it is attending graduate school of some kind (JD, MBA, MD, etc.) or whether you want to find a high-paying job and are sick of school——we're the best and lowest-cost way on the internet to building a better life. All the information on this website is for Air Force Academy graduates. 
+🟢 We are building this website to help other military graduates. So, if you're interested in what life could be like in the private sector——whether it is attending graduate school (JD, MBA, MD, etc.) or finding a high-paying job because you are done with school——we're here to help you bridget that gap. Simply put, we're the best and lowest-cost resource to building a better life for yourself and your family. 
 
-⏰ Whether you serve for 40 years or five-and-dive (like myself), we owe it to ourselves and our loved ones to find meaning in the private sector. We went to a military academy because we wanted to serve our communities and that shouldn't change on the outside. Of course, how you do that is up to you! 
+⏰ Whether you serve for 40 years or five-and-dive (like myself), you'll likely find yourself at a crossroad. That is, what should you do in the private sector? Well, it's a hard question. But we owe it to ourselves and our loved ones to find a meaningful pursuit. It's a leap _into_ faith. So, whether you want to be an architect, run a construction firm, or live in NYC as a singer-songwriter, we're here to help facilitate those dreams.
 
 ##  Table of Contents
 - ### ✨ Introduction
