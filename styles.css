@@ -1,12 +1,13 @@
 /* Header Styles */
 
  header {
-        color: #000;
+        color: #fff;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 10px 20px;
-        font-family: 'Raleway', sans-serif; /* Set font family for the header */
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
     }
 
  body {
