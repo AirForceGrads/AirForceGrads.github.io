@@ -8,6 +8,14 @@ header {
     padding: 10px 20px;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+/* You can target specific elements with different styles */
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    /* Add variations for different headings if needed */
+}
 
 /* Logo Styles */
 
