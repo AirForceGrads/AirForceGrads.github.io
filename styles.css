@@ -63,7 +63,7 @@ p {
     color: black; /* Choose your desired hover text color */
  }
 /* Responsive Navigation */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .navbar li {
         float: none;
         display: block;
