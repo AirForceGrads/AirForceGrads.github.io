@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #4285f4;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #3367d6;
+}
+
+
+/* Navigation Bar styles */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    background-color: #333; /* Choose your desired background color */
+  }
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: center;
+}
+
+.navbar a {
+    color: white; /* Choose your desired text color */
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+.navbar a:hover {
+    background-color: #ddd; /* Choose your desired hover background color */
+    color: black; /* Choose your desired hover text color */
+ }
+/* Responsive Navigation */
+@media screen and (max-width: 600px) {
+    .navbar li {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+
+#home #about #donate #resources {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.card {
+    display: inline-block;
+    width: calc(30%); /* Adjust width as needed */
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up a bit on hover */
+}
+
+.card a {
+    text-decoration: none; /* Remove underlining */
+    color: inherit; /* Use the default text color */
+    padding: 0; /* Remove padding to make the entire card clickable */
+    display: block; /* Make the entire card a clickable block */
+}
+
+.card a:hover {
+    text-decoration: none; /* Remove underlining on hover */
+}
