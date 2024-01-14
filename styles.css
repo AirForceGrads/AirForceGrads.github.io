@@ -69,6 +69,12 @@ p {
         display: block;
         text-align: center;
     }
+    .card {
+        width: 100%;
+    }
+    .card a {
+        width: 100%;
+    }
 }
 
 
