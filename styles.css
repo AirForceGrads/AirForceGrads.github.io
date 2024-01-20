@@ -1,112 +1,112 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 50px;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding-top: 80px; 
+  background-color: #f9f9f9;
 }
 
-h1 {
-    color: #333;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #005288;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; /* Set a high z-index to ensure the header is displayed above other elements */
 }
-
-p {
-    color: #666;
-}
-
 .cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-decoration: none;
-    background-color: #4285f4;
-    color: #fff;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #005288;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
 .cta-button:hover {
-    background-color: #3367d6;
+  background-color: #003366;
 }
 
 
-/* Navigation Bar styles */
+.logo {
+  font-size: 1.5em;
+  pointer-events: none; /* Disable pointer events on the logo */
+}
+
+.menu-toggle {
+  font-size: 2em;
+  cursor: pointer;
+  display: none; /* Hide initially on larger screens */
+}
 
 .navbar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 15px;
-    background-color: #333; /* Choose your desired background color */
-  }
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
 }
 
 .navbar li {
-    float: center;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .navbar a {
-    color: white; /* Choose your desired text color */
-    padding: 14px 16px;
-    text-decoration: none;
-    display: inline-block;
-  }
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
 .navbar a:hover {
-    background-color: #ddd; /* Choose your desired hover background color */
-    color: black; /* Choose your desired hover text color */
- }
-/* Responsive Navigation */
-@media screen and (max-width: 400px) {
-    .navbar li {
-        float: none;
-        display: block;
-        text-align: center;
-    }
-    .card {
-        width: 100%;
-    }
-    .card a {
-        width: 100%;
-    }
+  color: #003366;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: none; /* Hide by default on smaller screens */
+    text-align: left;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    background-color: #005288;
+  }
 
-#home #about #donate #resources {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  .navbar.show {
+    display: block; /* Show the navigation links when the 'show' class is added */
+  }
+
+  .navbar li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block; /* Show the menu toggle on smaller screens */
+    cursor: pointer;
+    user-select: none;
+  }
 }
 
-
-.card {
-    display: inline-block;
-    width: calc(30%); /* Adjust width as needed */
-    margin: 10px;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 10px; /* Rounded corners */
-    box-sizing: border-box; /* Ensure padding is included in the width */
-    transition: transform 0.3s ease-in-out;
+/* centering the whole page */
+/*body {
+  text-align: center;
 }
 
-.card:hover {
-    transform: scale(1.05); /* Scale up a bit on hover */
-}
+#header, #footer, #section {
+  margin: 0 auto; /* This centers the block-level elements */
+  /* text-align: left; /* Reset text alignment for inner content */
+/* }
 
-.card a {
-    text-decoration: none; /* Remove underlining */
-    color: inherit; /* Use the default text color */
-    padding: 0; /* Remove padding to make the entire card clickable */
-    display: block; /* Make the entire card a clickable block */
-}
-
-.card a:hover {
-    text-decoration: none; /* Remove underlining on hover */
-}
+h1, h2, h3, h4, h5, p {
+  text-align: center; /* Center text within these elements */
+ /* margin: 0; /* Remove default margin to prevent unwanted spacing */
+/*}
+*/
