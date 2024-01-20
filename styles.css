@@ -94,19 +94,3 @@ header {
     user-select: none;
   }
 }
-
-/* centering the whole page */
-/*body {
-  text-align: center;
-}
-
-#header, #footer, #section {
-  margin: 0 auto; /* This centers the block-level elements */
-  /* text-align: left; /* Reset text alignment for inner content */
-/* }
-
-h1, h2, h3, h4, h5, p {
-  text-align: center; /* Center text within these elements */
- /* margin: 0; /* Remove default margin to prevent unwanted spacing */
-/*}
-*/
