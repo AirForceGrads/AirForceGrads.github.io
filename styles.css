@@ -44,7 +44,29 @@
     justify-content: space-around;
   }
   
+  @media screen and (max-width: 768px) {
+    main {
+        height: auto; /* Adjust the height for smaller screens */
+    }
 
+    .main-intro {
+        padding: 20px; /* Add padding to .main-intro on smaller screens */
+    }
+
+    .main-intro h1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+    }
+
+    .main-intro h3 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        margin-bottom: 10px; /* Reduce margin for smaller screens */
+    }
+
+    .main-buttons {
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+        align-items: center; /* Center buttons on smaller screens */
+    }
+}
 
 
   
