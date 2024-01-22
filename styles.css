@@ -63,8 +63,8 @@
     }
 
     .main-buttons {
-        flex-direction: column; /* Stack buttons vertically on smaller screens */
-        align-items: center; /* Center buttons on smaller screens */
+      display: flex; /* Arrange buttons side-by-side */
+      justify-content: space-around;
     }
 }
 
