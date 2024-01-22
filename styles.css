@@ -46,7 +46,7 @@
   
   @media screen and (max-width: 768px) {
     main {
-        height: 100vh; /* Adjust the height for smaller screens */
+        height: 80vh; /* Adjust the height for smaller screens */
     }
     .main-intro h1 {
         font-size: 36px; /* Adjust font size for smaller screens */
