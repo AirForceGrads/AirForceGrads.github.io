@@ -48,23 +48,17 @@
     main {
         height: 100vh; /* Adjust the height for smaller screens */
     }
-
-    .main-intro {
-        padding: 20px; /* Add padding to .main-intro on smaller screens */
-    }
-
     .main-intro h1 {
         font-size: 36px; /* Adjust font size for smaller screens */
     }
 
     .main-intro h3 {
         font-size: 20px; /* Adjust font size for smaller screens */
-        margin-bottom: 10px; /* Reduce margin for smaller screens */
     }
 
     .main-buttons {
-      display: flex; /* Arrange buttons side-by-side */
-      justify-content: space-around;
+      display: flex; /* Arrange buttons side-by-side */  
+      justify-content: center; /* Center buttons on smaller screens */
     }
 }
 
