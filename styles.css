@@ -60,6 +60,10 @@
       display: flex; /* Arrange buttons side-by-side */  
       justify-content: center; /* Center buttons on smaller screens */
     }
+    .cta-button {
+      padding: 15px 25px; /* Adjust as needed */
+    }
+
 }
 
 
