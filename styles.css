@@ -46,7 +46,7 @@
   
   @media screen and (max-width: 768px) {
     main {
-        height: auto; /* Adjust the height for smaller screens */
+        height: 100vh; /* Adjust the height for smaller screens */
     }
 
     .main-intro {
