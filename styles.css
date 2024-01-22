@@ -1,112 +1,129 @@
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding-top: 80px; 
-  background-color: #f9f9f9;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #005288;
-  color: #fff;
-  padding: 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1000; /* Set a high z-index to ensure the header is displayed above other elements */
-}
-.cta-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #005288;
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #003366;
-}
-
-
-.logo {
-  font-size: 1.5em;
-  pointer-events: none; /* Disable pointer events on the logo */
-}
-
-.menu-toggle {
-  font-size: 2em;
-  cursor: pointer;
-  display: none; /* Hide initially on larger screens */
-}
-
-.navbar {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-}
-
-.navbar li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-.navbar a:hover {
-  color: #003366;
-}
-
-@media screen and (max-width: 768px) {
-  .navbar {
-    display: none; /* Hide by default on smaller screens */
-    text-align: left;
-    width: 100%;
-    position: absolute;
-    top: 60px;
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding-top: 60px; 
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: #005288;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Set a high z-index to ensure the header is displayed above other elements */
+  }
+ 
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+ 
+  .main-intro {
+    text-align: center; /* Center the text within .main-intro */
   }
 
-  .navbar.show {
-    display: block; /* Show the navigation links when the 'show' class is added */
+  .main-intro h1 {
+    font-size: 48px;
   }
 
-  .navbar li {
-    display: block;
-    margin: 10px 0;
+  .main-intro h3 {
+    font-size: 28px;
+    margin-bottom: 20px; /* Add spacing before buttons */
+  }
+
+  .main-buttons {
+    display: flex; /* Arrange buttons side-by-side */
+    justify-content: space-around;
+  }
+  
+
+
+
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #005288;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    align-items: center;
+  }
+
+  .cta-button:hover {
+    background-color: #003366;
+  }
+
+
+  .logo {
+    font-size: 1.5em;
+    pointer-events: none; /* Disable pointer events on the logo */
   }
 
   .menu-toggle {
-    display: block; /* Show the menu toggle on smaller screens */
+    font-size: 2em;
     cursor: pointer;
-    user-select: none;
+    display: none; /* Hide initially on larger screens */
   }
-}
 
-/* centering the whole page */
-/*body {
-  text-align: center;
-}
+  .navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
 
-#header, #footer, #section {
-  margin: 0 auto; /* This centers the block-level elements */
-  /* text-align: left; /* Reset text alignment for inner content */
-/* }
+  .navbar li {
+    display: inline-block;
+    margin-left: 20px;
+  }
 
-h1, h2, h3, h4, h5, p {
-  text-align: center; /* Center text within these elements */
- /* margin: 0; /* Remove default margin to prevent unwanted spacing */
-/*}
-*/
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  .navbar a:hover {
+    color: #003366;
+  }
+
+  @media screen and (max-width: 768px) {
+    .navbar {
+      display: none; /* Hide by default on smaller screens */
+      text-align: left;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      background-color: #005288;
+    }
+
+    .navbar.show {
+      display: block; /* Show the navigation links when the 'show' class is added */
+    }
+
+    .navbar li {
+      display: block;
+      margin: 10px 0;
+    }
+
+    .menu-toggle {
+      display: block; /* Show the menu toggle on smaller screens */
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+
+
