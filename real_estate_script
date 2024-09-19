@@ -36,8 +36,3 @@ function searchRealtors() {
 document.addEventListener('DOMContentLoaded', function() {
     searchRealtors();
 });
-
-// Initial display of all realtors
-window.onload = function() {
-    searchRealtors();
-};
