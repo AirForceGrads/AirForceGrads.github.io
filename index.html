@@ -3,31 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Air Force Grads</title>
+    <title>AirForceGrads | Network with USAFA Alumni</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src = "script.js"></script>
-
+    <script src="script.js"></script>
 </head>
-    <header>
-        <div class="logo"><i><b>AirForceGrads</b></i></div>
-        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-        <nav class="navbar">
-        <ul>
-            <li><a href="#top">Home</a></li>
-        </ul>
-        </nav>
-    </header>
-  
 <body>
+    <div class="hud-overlay">
+        <header>
+            <div class="logo"><i><b>AirForceGrads</b></i></div>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
     <main>
-        <div class ="main-intro">
-            <h1>For The Grads.</h1>
-            <h3>Network with USAFA alumni.</h3>
-            <div class ="main-buttons">
-                <a href = https://www.airforcegrads.com/real_estate class = "cta-button">Find a Grad Realtor (Free)</a>
-            </div>  
+        <div class="hero-section">
+            <h1 class="glitch" data-text="For The Grads.">For The Grads.</h1>
+            <h3 class="subtitle">Network with USAFA alumni.</h3>
+            <div class="cta-container">
+                <a href="https://www.airforcegrads.com/real_estate" class="cta-button">Find a Grad Realtor <span class="highlight">(Free)</span></a>
+            </div>
         </div>
     </main>
     
+    <div class="background-animation"></div>
 </body>
 </html>
