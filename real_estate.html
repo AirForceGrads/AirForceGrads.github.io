@@ -5,9 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grad Realtors | AirForceGrads</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="real_estate_styles.css">
-    <script src="script.js" defer></script>
-    <script src="real_estate_script.js" defer></script>
+    <style>
+        .realtor-directory {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .realtor-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .realtor-card {
+            background: rgba(10, 25, 47, 0.8);
+            border: 1px solid var(--primary-color);
+            padding: 1.5rem;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .realtor-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 240, 255, 0.2);
+        }
+        .realtor-name {
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+        .realtor-location {
+            color: #ccc;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        .realtor-description {
+            color: var(--text-color);
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+        .realtor-contact {
+            margin-top: 1rem;
+            text-align: right;
+        }
+        .contact-button {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .contact-button:hover {
+            background-color: #00c0cc;
+        }
+    </style>
 </head>
 <body>
     <div class="hud-overlay">
@@ -27,13 +82,50 @@
     <main class="realtor-directory">
         <h1 class="glitch" data-text="Grad Realtors">Grad Realtors</h1>
         
-        <div class="search-container">
-            <input type="text" id="search-input" placeholder="Search by location...">
-            <button onclick="searchRealtors()">Search</button>
-        </div>
-
-        <div id="realtor-list">
-            <!-- Realtor entries will be dynamically added here -->
+        <div class="realtor-grid">
+            <div class="realtor-card">
+                <div>
+                    <h3 class="realtor-name">John Doe</h3>
+                    <p class="realtor-location">New York, NY</p>
+                    <p class="realtor-description">Specializing in luxury apartments and condos in Manhattan. With over 10 years of experience, John has a keen eye for high-end properties and a network of exclusive listings.</p>
+                </div>
+                <div class="realtor-contact">
+                    <button class="contact-button">Contact John</button>
+                </div>
+            </div>
+            
+            <div class="realtor-card">
+                <div>
+                    <h3 class="realtor-name">Jane Smith</h3>
+                    <p class="realtor-location">Los Angeles, CA</p>
+                    <p class="realtor-description">Expert in Hollywood Hills and Beverly Hills properties. Jane's clientele includes A-list celebrities and tech entrepreneurs looking for privacy and luxury.</p>
+                </div>
+                <div class="realtor-contact">
+                    <button class="contact-button">Contact Jane</button>
+                </div>
+            </div>
+            
+            <div class="realtor-card">
+                <div>
+                    <h3 class="realtor-name">Mike Johnson</h3>
+                    <p class="realtor-location">Chicago, IL</p>
+                    <p class="realtor-description">Focusing on family homes in the suburbs of Chicago. Mike's approach is family-oriented, helping clients find the perfect balance between comfort and investment.</p>
+                </div>
+                <div class="realtor-contact">
+                    <button class="contact-button">Contact Mike</button>
+                </div>
+            </div>
+            
+            <div class="realtor-card">
+                <div>
+                    <h3 class="realtor-name">Sarah Lee</h3>
+                    <p class="realtor-location">San Francisco, CA</p>
+                    <p class="realtor-description">Specializing in tech-friendly homes and modern condos in the Bay Area. Sarah understands the unique needs of tech professionals and startups.</p>
+                </div>
+                <div class="realtor-contact">
+                    <button class="contact-button">Contact Sarah</button>
+                </div>
+            </div>
         </div>
     </main>
     
