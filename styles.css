@@ -263,3 +263,36 @@ header {
         transform: translateZ(0) rotate(360deg);
     }
 }
+
+.more-button {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        display: flex;
+        align-items: center;
+    }
+    
+    .more-menu-item {
+        display: none;
+    }
+    
+    .more-button {
+        display: block;
+    }
+    
+    .navbar.show-more .more-menu-item {
+        display: block;
+    }
+    
+    .navbar.show-more .more-button {
+        display: none;
+    }
+}
