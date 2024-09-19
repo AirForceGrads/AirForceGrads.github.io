@@ -32,6 +32,10 @@ function searchRealtors() {
         realtorList.innerHTML = '<p>No realtors found in this location.</p>';
     }
 }
+// At the end of your real_estate_script.js file
+document.addEventListener('DOMContentLoaded', function() {
+    searchRealtors();
+});
 
 // Initial display of all realtors
 window.onload = function() {
