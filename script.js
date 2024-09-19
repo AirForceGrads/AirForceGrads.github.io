@@ -1,4 +1,4 @@
-  function navigateMBAReport() {
+/*  function navigateMBAReport() {
     // Get the selected option from the dropdown
     var selectedOption = document.getElementById("MBA_report").value;
 
@@ -53,9 +53,19 @@
     }
     // Add more conditions for other options
   }
+*/
 
-  function toggleMenu() {
-    var navbar = document.querySelector('.navbar');
-    console.log(navbar); // Check if the correct element is selected
-    navbar.classList.toggle('show');
-  }
+  document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".navbar ul");
+
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    });
+
+    document.querySelectorAll(".navbar ul li a").forEach(n => n.addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+    }));
+});
