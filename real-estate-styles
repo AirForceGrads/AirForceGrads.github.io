@@ -3,12 +3,14 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .realtor-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
 }
+
 .realtor-card {
     background: rgba(10, 25, 47, 0.8);
     border: 1px solid var(--primary-color);
@@ -19,29 +21,35 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .realtor-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 240, 255, 0.2);
 }
+
 .realtor-name {
     color: var(--primary-color);
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
 }
+
 .realtor-location {
     color: #ccc;
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+
 .realtor-description {
     color: var(--text-color);
     font-size: 1rem;
     line-height: 1.5;
 }
+
 .realtor-contact {
     margin-top: 1rem;
     text-align: right;
 }
+
 .contact-button {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -51,6 +59,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
 .contact-button:hover {
     background-color: #00c0cc;
 }
