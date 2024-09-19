@@ -1,0 +1,39 @@
+// JavaScript specific to the real estate page
+
+// Sample data for realtors
+const realtors = [
+    { name: "John Doe", location: "New York, NY", description: "Specializing in luxury apartments and condos in Manhattan." },
+    { name: "Jane Smith", location: "Los Angeles, CA", description: "Expert in Hollywood Hills and Beverly Hills properties." },
+    { name: "Mike Johnson", location: "Chicago, IL", description: "Focusing on family homes in the suburbs of Chicago." },
+    // Add more realtor data as needed
+];
+
+function searchRealtors() {
+    const searchInput = document.getElementById('search-input').value.toLowerCase();
+    const realtorList = document.getElementById('realtor-list');
+    realtorList.innerHTML = '';
+
+    const filteredRealtors = realtors.filter(realtor => 
+        realtor.location.toLowerCase().includes(searchInput)
+    );
+
+    filteredRealtors.forEach(realtor => {
+        const realtorCard = document.createElement('div');
+        realtorCard.classList.add('realtor-card');
+        realtorCard.innerHTML = `
+            <h3 class="realtor-name">${realtor.name}</h3>
+            <p class="realtor-location">${realtor.location}</p>
+            <p class="realtor-description">${realtor.description}</p>
+        `;
+        realtorList.appendChild(realtorCard);
+    });
+
+    if (filteredRealtors.length === 0) {
+        realtorList.innerHTML = '<p>No realtors found in this location.</p>';
+    }
+}
+
+// Initial display of all realtors
+window.onload = function() {
+    searchRealtors();
+};
