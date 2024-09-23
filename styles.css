@@ -302,6 +302,16 @@ header {
     border-top: 2px solid var(--primary-color); /* Adds a visible separator */
 }
 
+.features-section {
+    background-color: #172a45;
+    padding: 80px 0;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+    border-top: 2px solid var(--primary-color); /* Adds a visible separator */
+}
+    
+
 main {
     position: relative;
     z-index: 2;
