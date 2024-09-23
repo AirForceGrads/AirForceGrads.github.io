@@ -16,7 +16,7 @@ body {
     font-family: 'Rajdhani', sans-serif;
     background-color: var(--secondary-color);
     color: var(--text-color);
-    overflow: hidden;
+    overflow-y: auto;
 }
 
 .hud-overlay {
@@ -61,7 +61,7 @@ header {
 }
 
 .hero-section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -309,17 +309,6 @@ header {
     padding: 0 20px;
 }
 
-.about-image {
-    flex: 1;
-    padding-right: 40px;
-}
-
-.about-image img {
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 .about-text {
     flex: 1;
 }
@@ -340,10 +329,4 @@ header {
     .about-container {
         flex-direction: column;
     }
-
-    .about-image {
-        padding-right: 0;
-        padding-bottom: 40px;
-    }
-}
 }
