@@ -401,17 +401,6 @@ main {
     line-height: 1.6;
     margin-bottom: 15px;
 }
-.feature-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    max-width: 1200px;
-    height: 2px;
-    background-color: var(--primary-color);
-}
 
 @media (max-width: 768px) {
     .about-container {
