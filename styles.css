@@ -92,6 +92,7 @@ header {
     padding: 1rem 2rem;
     background: rgba(10, 25, 47, 0.8);
     backdrop-filter: blur(10px);
+    border-top: none; /* Remove any existing top border */
 }
 
 .logo {
@@ -127,6 +128,7 @@ header {
     text-align: center;
     position: relative;
     z-index: 2;
+    border-bottom: 2px solid var(--primary-color); /* Add border to bottom of hero section */
 }
 
 .glitch {
