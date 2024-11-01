@@ -138,7 +138,6 @@ header {
     position: relative;
     color: var(--text-color);
     letter-spacing: 0.5rem;
-    animation: glitch 1s linear infinite;
 }
 
 @keyframes glitch {
