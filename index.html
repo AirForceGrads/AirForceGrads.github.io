@@ -28,15 +28,44 @@
     <main>
         <div class="hero-section">
             <h1 class="glitch" data-text="For The Grads.">For The Grads.</h1>
-            <h3 class="subtitle">Network with USAFA alumni.</h3>
-            <div class="cta-container">
-                <a href="https://www.airforcegrads.com/real-estate" class="cta-button">Find a Grad Realtor <span class="highlight">(Free)</span></a>
-                <a href="https://www.va.gov/disability/how-to-file-claim/" class="feature-button">File a VA Claim</a>
-                <a href="https://goairforcefalcons.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=GS&linkID=usaf-athletics&shopperContext=&caller=&appCode=" class="feature-button">Buy Falcon Tickets</a>
-                <a href="https://www.service2school.org" class="feature-button">Grad School Help (Service 2 School)</a>
-                <a href="https://sacc-jobfair.com" class="feature-button">Find a Job (Service Academy Career Conference)</a>
+            <h3 class="subtitle">Connect with USAFA alumni.</h3>
+            
+            <div class="container">
+                <!-- Goal Selector -->
+                <div class="goal-selector">
+                    <select id="goal">
+                        <!--Add more options as needed-->
+                        <option value="">Select your goal</option>
+                        <option value="realtor">Find a Real Estate Agent/Broker</option>
+                        <option value="va-claim">File a VA Claim</option>
+                        <option value="falcon-tickets">Buy Falcon Tickets</option>
+                        <option value="grad-school">Grad School Help (Service 2 School)</option>
+                        <option value="SACC">Find a Job (Service Academy Career Conference)</option>
+                    </select>
+        
+                    <!-- Category Search Bar -->
+                    <input type="text" placeholder="Select a category" class="category-search">
+        
+                    <!-- Find Coaching Button -->
+                    <button class="find-coaching">Find coaching</button>
+                </div>
+        
+                <!-- Popular Categories -->
+                <div class="popular">
+                    <h3>Popular:</h3>
+                    <div class="options">
+                        <button>MBA</button>
+                        <button>Career Development</button>
+                        <button>Management Consulting</button>
+                        <button>GRE</button>
+                        <button>Medical School</button>
+                        <button>College</button>
+                        <button>Master's Programs</button>
+                        <button>Law School</button>
+                        <button>Investment Banking</button>
+                    </div>
+                </div>
             </div>
-        </div>
     </main>
     
     <div class="background-animation"></div>
